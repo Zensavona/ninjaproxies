@@ -1,4 +1,7 @@
 defmodule Ninjaproxies.Config do
+  @moduledoc """
+  Configure the API key from your Ninjaproxies account
+  """
 
   @doc """
   Set an API key to be used with all requests

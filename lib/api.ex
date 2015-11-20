@@ -25,7 +25,7 @@ defmodule Ninjaproxies.API do
   end
 
   defp build_options(options) do
-    options = Enum.filter(options, fn({k, v}) -> Enum.member?(@options, k) end)
+    options = Enum.filter(options, fn({k, _}) -> Enum.member?(@options, k) end)
     options |> Enum.reduce("?", fn(opt, acc) -> acc <> build_option(opt) <> "&" end)
   end
   defp build_option({key, values}) when is_list(values) do

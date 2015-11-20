@@ -1,5 +1,8 @@
 # Ninjaproxies
 
+[![Build Status](https://travis-ci.org/Zensavona/ninjaproxies.svg)](https://travis-ci.org/Zensavona/ninjaproxies)
+
+
 A (very) simple Elixir API client for [NinjaProxies](http://ninjaproxies.com)
 
 

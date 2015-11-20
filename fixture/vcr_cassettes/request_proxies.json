@@ -1,0 +1,32 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "follow_redirect": true,
+        "recv_timeout": 60000,
+        "connect_timeout": 60000
+      },
+      "request_body": "",
+      "url": "http://ninjaproxies.com/proxies/api/?alive=1&instagram=1&key=144802162882799426144802162814480216285222532&limit=2&order=bandwidth_DESC&protocol=https+http&regionName=New_York&whitelisted=1&"
+    },
+    "response": {
+      "body": "{\"status\":\"ok\",\"data\":[{\"Proxy\":{\"id\":\"3161000\",\"ip\":\"104.131.93.58\",\"portNum\":\"80\",\"type\":\"Elite\",\"protocol\":\"http\",\"countryCode\":\"US\",\"countryName\":\"United_States\",\"regionName\":\"New_York\",\"cityName\":\"New_York_City\",\"speed\":\"0\",\"bandwidth\":\"312926\",\"uptime\":\"1\",\"connectTotal\":\"1\",\"uptimeAverage\":\"100\",\"referrer\":\"0\",\"cookie\":\"0\",\"get\":\"1\",\"post\":\"1\",\"whitelisted\":true,\"google\":\"1\",\"facebook\":\"1\",\"paypal\":\"1\",\"craigslist\":\"1\",\"twitter\":\"1\",\"youtube\":\"1\",\"pinterest\":\"1\",\"instagram\":\"1\",\"processing\":false,\"created\":\"2015-11-11 02:15:29\",\"modified\":\"2015-11-11 02:30:56\",\"alive\":\"1\"}},{\"Proxy\":{\"id\":\"2687765\",\"ip\":\"24.157.37.61\",\"portNum\":\"8080\",\"type\":\"Elite\",\"protocol\":\"http\",\"countryCode\":\"US\",\"countryName\":\"United_States\",\"regionName\":\"New_York\",\"cityName\":\"Bethpage\",\"speed\":\"0\",\"bandwidth\":\"302602\",\"uptime\":\"3\",\"connectTotal\":\"18\",\"uptimeAverage\":\"17\",\"referrer\":\"0\",\"cookie\":\"0\",\"get\":\"1\",\"post\":\"1\",\"whitelisted\":true,\"google\":\"1\",\"facebook\":\"1\",\"paypal\":\"1\",\"craigslist\":\"0\",\"twitter\":\"1\",\"youtube\":\"1\",\"pinterest\":\"1\",\"instagram\":\"1\",\"processing\":false,\"created\":\"2015-05-12 12:31:10\",\"modified\":\"2015-11-19 05:12:51\",\"alive\":\"1\"}}]}",
+      "headers": {
+        "Date": "Fri, 20 Nov 2015 15:02:05 GMT",
+        "Server": "Apache",
+        "Set-Cookie": "ninjaproxies=0JFq%2Cfc0iYuyV-VBRsmow0; expires=Fri, 27-Nov-2015 15:02:05 GMT; path=/",
+        "Cache-Control": "max-age=0",
+        "Expires": "Fri, 20 Nov 2015 15:02:05 GMT",
+        "X-UA-Compatible": "IE=Edge,chrome=1",
+        "Vary": "Accept-Encoding",
+        "Transfer-Encoding": "chunked",
+        "Content-Type": "application/json"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

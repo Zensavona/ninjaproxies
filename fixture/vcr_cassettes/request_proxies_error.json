@@ -1,0 +1,33 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "follow_redirect": true,
+        "recv_timeout": 60000,
+        "connect_timeout": 60000
+      },
+      "request_body": "",
+      "url": "http://ninjaproxies.com/proxies/api/?get=1&key=144802162882799426144802162814480216285222532&limit=2&post=1&"
+    },
+    "response": {
+      "body": "{\"status\":\"error\",\"data\":\"Invalid get. Must be 0 or 1.\"}",
+      "headers": {
+        "Date": "Fri, 20 Nov 2015 15:18:52 GMT",
+        "Server": "Apache",
+        "Set-Cookie": "ninjaproxies=gjEMrnWbXmITOkva2RLXI3; expires=Fri, 27-Nov-2015 15:18:52 GMT; path=/",
+        "Cache-Control": "max-age=0",
+        "Expires": "Fri, 20 Nov 2015 15:18:52 GMT",
+        "X-UA-Compatible": "IE=Edge,chrome=1",
+        "Vary": "Accept-Encoding",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked",
+        "Content-Type": "application/json"
+      },
+      "status_code": 400,
+      "type": "ok"
+    }
+  }
+]

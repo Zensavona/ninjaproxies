@@ -14,7 +14,7 @@ defmodule Ninjaproxies.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :httpoison]]
   end
 
   # Dependencies can be Hex packages:
@@ -27,6 +27,14 @@ defmodule Ninjaproxies.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:httpoison, "~> 0.8"},
+      {:poison, "~> 1.5"},
+      {:exvcr, "~> 0.3", only: [:dev, :test]},
+      {:ex_doc, "~> 0.10.0", only: [:dev, :docs]},
+      {:excoveralls, "~> 0.3", only: [:dev, :test]},
+      {:inch_ex, "~> 0.4.0", only: [:dev, :docs]},
+      {:credo, "~> 0.1.0", only: :dev}
+    ]
   end
 end

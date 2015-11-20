@@ -15,7 +15,7 @@ defmodule Ninjaproxies.API do
   def request(options \\ %{}) do
     api_key = Ninjaproxies.Config.get.api_key
     options = options |> Map.put(:key, api_key) |> build_options
-    case HTTPoison.get(@base <> options, [], [follow_redirect: true, timeout: 60000, recv_timeout: 60000]) do
+    case HTTPoison.get(@base <> options, [], [hackney: [follow_redirect: true], timeout: 60000, recv_timeout: 60000]) do
       {:ok, %{status_code: 200} = response} ->
         Poison.decode!(response.body, keys: :atoms).data |> Enum.map(&parse_proxy/1)
       {:ok, %{status_code: code, body: body}} ->

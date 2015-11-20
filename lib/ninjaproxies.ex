@@ -1,0 +1,2 @@
+defmodule Ninjaproxies do
+end

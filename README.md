@@ -1,6 +1,6 @@
 # Ninjaproxies
 
-[![Build Status](https://travis-ci.org/Zensavona/ninjaproxies.svg)](https://travis-ci.org/Zensavona/ninjaproxies) [![Coverage Status](https://coveralls.io/repos/Zensavona/ninjaproxies/badge.svg?branch=master&service=github)](https://coveralls.io/github/Zensavona/ninjaproxies?branch=master) [![hex.pm version](https://img.shields.io/hexpm/v/ninjaproxies.svg)](https://hex.pm/packages/ninjaproxies) [![hex.pm downloads](https://img.shields.io/hexpm/dt/ninjaproxies.svg)](https://hex.pm/packages/ninjaproxies) [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/Zensavona/ninjaproxies.svg)](https://travis-ci.org/Zensavona/ninjaproxies) [![Coverage Status](https://coveralls.io/repos/Zensavona/ninjaproxies/badge.svg?branch=master&service=github)](https://coveralls.io/github/Zensavona/ninjaproxies?branch=master) [![hex.pm version](https://img.shields.io/hexpm/v/ninjaproxies.svg)](https://hex.pm/packages/ninjaproxies) [![hex.pm downloads](https://img.shields.io/hexpm/dt/ninjaproxies.svg)](https://hex.pm/packages/ninjaproxies) [![Inline docs](http://inch-ci.org/github/Zensavona/ninjaproxies.svg?branch=master)](http://inch-ci.org/github/Zensavona/ninjaproxies) [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 
 A (very) simple Elixir API client for [NinjaProxies](http://ninjaproxies.com)

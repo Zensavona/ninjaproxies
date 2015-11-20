@@ -5,6 +5,8 @@
 
 A (very) simple Elixir API client for [NinjaProxies](http://ninjaproxies.com)
 
+**[Read The Docs](https://hexdocs.pm/ninjaproxies)**
+
 
 ## Installation
 
